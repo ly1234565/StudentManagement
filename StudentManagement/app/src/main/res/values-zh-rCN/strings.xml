@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">学生管理系统</string>
+    <string name="login_activity_name_input">请输入账户</string>
+    <string name="login_activity_password_input">请输入密码</string>
+    <string name="login_activity_login">登录</string>
+    <string name="login_activity_register">注册</string>
+    <string name="login_activity_forgetNum">忘记密码?</string>
+    <string name="main_activity_admin">管理员</string>
+    <string name="main_activity_title">欢迎使用学生管理系统</string>
+    <string name="main_activity_student">学生</string>
+    <string name="main_activity_tips">请选择你的用户类别</string>
+    <string name="admin_activity_select">查询学生信息</string>
+    <string name="admin_activity_add">添加学生信息</string>
+    <string name="admin_activity_order">查看总成绩排名</string>
+    <string name="student_activity_selectInfo">查询个人信息</string>
+    <string name="student_activity_changePassword">修改密码</string>
+    <string name="register_invitationCode">请填写注册码</string>
+    <string name="register_personName">请输入姓名</string>
+    <string name="register_firstPassword">请输入密码</string>
+    <string name="register_secondPassword">请确认密码</string>
+    <string name="register_student_id">请填写学号</string>
+    <string name="forgetNum_student_id">请填写学号</string>
+    <string name="forgetNum_student_phoneNum">请填写电话号码</string>
+    <string name="forgetNum_student_changedNum">请填写新的密码</string>
+</resources>

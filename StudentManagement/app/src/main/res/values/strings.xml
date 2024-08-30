@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StudentManagement</string>
+    <string name="login_activity_name_input">Username</string>
+    <string name="login_activity_password_input">Password</string>
+    <string name="login_activity_login">LOGIN</string>
+    <string name="login_activity_register">REGISTER</string>
+    <string name="login_activity_forgetNum">Forgot Password?</string>
+    <string name="main_activity_title">WELCOME</string>
+    <string name="main_activity_admin">Administrator</string>
+    <string name="main_activity_student">Student</string>
+    <string name="main_activity_tips">Please select your user group</string>
+    <string name="admin_activity_select">Query student information</string>
+    <string name="admin_activity_add">Add student information</string>
+    <string name="admin_activity_order">Check out the overall score ranking</string>
+    <string name="student_activity_selectInfo">Query personal infomation</string>
+    <string name="student_activity_changePassword">Change password</string>
+    <string name="register_invitationCode">Invitation Code</string>
+    <string name="register_personName">Person Name</string>
+    <string name="register_firstPassword">First Password</string>
+    <string name="register_secondPassword">Second Password</string>
+    <string name="register_student_id">Student id</string>
+    <string name="forgetNum_student_id">Student id</string>
+    <string name="forgetNum_student_phoneNum">Phone Number</string>
+    <string name="forgetNum_student_changedNum">Changed Number</string>
+</resources>

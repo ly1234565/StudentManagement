@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity.mainActivity">
+
+    <TextView
+        android:id="@+id/main_activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/main_activity_title"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/main_activity_admin_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        app:srcCompat="@drawable/admin" />
+
+    <Button
+        android:id="@+id/main_activity_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/main_activity_admin_pic"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@+id/main_activity_admin_pic"
+        android:text="@string/main_activity_admin"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/main_activity_student_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/main_activity_admin_pic"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/student" />
+
+    <Button
+        android:id="@+id/main_activity_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_admin"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@+id/main_activity_student_pic"
+        android:text="@string/main_activity_student"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/main_activity_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/main_activity_tips"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/main_quick_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_activity_student"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="160dp"
+        android:text="广播测试"
+        android:textSize="18sp" />
+
+</RelativeLayout>
